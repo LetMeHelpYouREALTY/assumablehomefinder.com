@@ -139,7 +139,7 @@ export default function HomePage() {
               Trusted Authority on Assumable Mortgages
             </h2>
             <p className="mt-4 text-lg text-neutral-600">
-              Dr. Jan Duffy brings 30+ years of expertise to help you navigate assumable mortgage opportunities
+              Dr. Jan Duffy, licensed since 2008 · 35 years in Las Vegas, helps you navigate assumable mortgage opportunities
             </p>
           </div>
           

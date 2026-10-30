@@ -20,8 +20,6 @@ export default function Footer() {
               <p className="font-medium text-neutral-900">
                 {AGENT_INFO.name}, {AGENT_INFO.title}
               </p>
-              <p>License: {AGENT_INFO.license}</p>
-              <p>{AGENT_INFO.brokerage}</p>
             </div>
           </div>
 
@@ -98,7 +96,10 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-neutral-200 pt-8">
           <p className="text-center text-sm text-neutral-600">
-            Assumable Home Finder | Expert Guidance by Dr. Jan Duffy | Licensed Nevada REALTOR® S.0197614. | Berkshire Hathaway HomeServices © {currentYear}
+            Assumable Home Finder | Expert Guidance by Dr. Jan Duffy | Nevada REALTOR® © {currentYear}
+          </p>
+          <p className="mt-2 text-center text-sm text-neutral-600">
+            Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
         </div>
       </div>

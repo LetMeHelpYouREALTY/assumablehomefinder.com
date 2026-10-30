@@ -34,7 +34,7 @@ export default function Hero() {
           </div>
           <div className="mt-10 sm:mt-12">
             <p className="text-xs sm:text-sm font-medium text-white/80">
-              Expert Guidance by Dr. Jan Duffy | Licensed Nevada REALTOR® | Berkshire Hathaway HomeServices | 30+ Years Experience
+              Expert Guidance by Dr. Jan Duffy | Nevada REALTOR® licensed since 2008 · 35 years in Las Vegas
             </p>
           </div>
         </div>

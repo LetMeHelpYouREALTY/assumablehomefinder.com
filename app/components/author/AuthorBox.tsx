@@ -32,8 +32,6 @@ export default function AuthorBox({
         </Link>
         <span className="text-neutral-500">|</span>
         <span className="text-sm text-neutral-600">{AGENT_INFO.title}</span>
-        <span className="text-neutral-500">|</span>
-        <span className="text-sm text-neutral-600">License {AGENT_INFO.license}</span>
       </div>
     )
   }
@@ -57,13 +55,10 @@ export default function AuthorBox({
               {AGENT_INFO.name}
             </Link>
             <p className="text-sm text-neutral-600 mt-1">
-              {AGENT_INFO.title} | License {AGENT_INFO.license}
-            </p>
-            <p className="text-sm text-neutral-600">
-              {AGENT_INFO.brokerage}
+              {AGENT_INFO.title}®
             </p>
             <p className="text-sm text-neutral-600 mt-1">
-              30+ years experience | Assumable Mortgage Specialist
+              Licensed since 2008 · 35 years in Las Vegas | Assumable Mortgage Specialist
             </p>
           </div>
         </div>
@@ -95,10 +90,7 @@ export default function AuthorBox({
             </span>
           </div>
           <p className="text-lg font-semibold text-[var(--color-primary)] mb-2">
-            {AGENT_INFO.title} | License {AGENT_INFO.license}
-          </p>
-          <p className="text-base text-neutral-700 font-medium mb-4">
-            {AGENT_INFO.brokerage}
+            {AGENT_INFO.title}®
           </p>
           
           <div className="space-y-2 mb-4">
@@ -106,7 +98,7 @@ export default function AuthorBox({
               <svg className="w-5 h-5 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span><strong>30+ years</strong> of real estate market expertise</span>
+              <span><strong>Licensed since 2008</strong> · 35 years in Las Vegas</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-neutral-600">
               <svg className="w-5 h-5 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -130,9 +122,9 @@ export default function AuthorBox({
 
           <p className="text-sm text-neutral-600 mb-4">
             Dr. Jan Duffy is recognized as one of Nevada's leading experts on assumable mortgages, 
-            with specialized knowledge in FHA, VA, and USDA loan assumptions. Her 30+ years of 
-            experience in the Las Vegas real estate market, combined with her deep understanding 
-            of assumption processes, makes her uniquely qualified to guide buyers and sellers 
+            with specialized knowledge in FHA, VA, and USDA loan assumptions. Licensed since 2008 · 35 years 
+            in Las Vegas, and with her deep understanding 
+            of assumption processes, she is uniquely qualified to guide buyers and sellers 
             through assumable mortgage transactions.
           </p>
 

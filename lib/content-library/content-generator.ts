@@ -181,7 +181,7 @@ function buildArticleContent(
   
   // Call to action section
   content += `## ${h2s[h2s.length - 1]}\n\n`
-  content += `<p>Navigating assumable mortgage ${question.category} requires specialized expertise. Dr. Jan Duffy, a Nevada-licensed REALTOR® with 30+ years of experience, specializes in assumable mortgages and can guide you through the process. Contact us today to discuss your specific situation and get personalized assistance.</p>\n\n`
+  content += `<p>Navigating assumable mortgage ${question.category} requires specialized expertise. Dr. Jan Duffy, a Nevada REALTOR® licensed since 2008 · 35 years in Las Vegas, specializes in assumable mortgages and can guide you through the process. Contact us today to discuss your specific situation and get personalized assistance.</p>\n\n`
   
   return content
 }
