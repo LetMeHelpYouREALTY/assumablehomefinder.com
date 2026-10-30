@@ -39,11 +39,10 @@ export default function AgentBio() {
             </p>
             <div className="mt-6 space-y-4 text-neutral-600">
               <p>
-                {AGENT_INFO.title} | License {AGENT_INFO.license}
+                {AGENT_INFO.title}®
               </p>
-              <p>{AGENT_INFO.brokerage}</p>
               <p>
-                With over 30 years of real estate market expertise, Dr. Jan Duffy
+                Licensed since 2008 · 35 years in Las Vegas, Dr. Jan Duffy
                 specializes in helping homebuyers find assumable mortgage
                 opportunities in Las Vegas, Henderson, and throughout Nevada.
                 Whether you're a first-time buyer or experienced investor, I can

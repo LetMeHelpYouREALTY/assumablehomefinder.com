@@ -52,7 +52,7 @@ export const AUTHOR_INFO = {
   
   // Achievement Highlights
   achievements: [
-    '30+ years of real estate experience in Las Vegas market',
+    'Licensed since 2008 · 35 years in Las Vegas',
     'Specialized expertise in assumable mortgage transactions',
     'Recognized authority on FHA, VA, and USDA loan assumptions',
     'Successfully guided hundreds of assumable mortgage transactions',
@@ -83,7 +83,7 @@ export function generateAuthorPersonSchema() {
     '@id': `${SITE_CONFIG.baseUrl}#author`,
     name: AUTHOR_INFO.name,
     jobTitle: `${AUTHOR_INFO.title} - ${AUTHOR_INFO.specialization}`,
-    description: `${AUTHOR_INFO.name} is a Nevada-licensed REALTOR® with ${AUTHOR_INFO.yearsOfExperience}+ years of experience specializing in assumable mortgages. Recognized expert on FHA, VA, and USDA loan assumptions in Las Vegas.`,
+    description: `${AUTHOR_INFO.name} is a Nevada REALTOR® licensed since 2008 · 35 years in Las Vegas, specializing in assumable mortgages. Recognized expert on FHA, VA, and USDA loan assumptions in Las Vegas.`,
     telephone: AUTHOR_INFO.phone,
     email: AUTHOR_INFO.email,
     url: `${SITE_CONFIG.baseUrl}/about`,

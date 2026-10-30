@@ -60,7 +60,7 @@ export function generateRealEstateAgentSchema() {
     '@id': `${SITE_CONFIG.baseUrl}#agent`,
     name: AGENT_INFO.name,
     jobTitle: `${AGENT_INFO.title} - Assumable Mortgage Specialist`,
-    description: `${AGENT_INFO.name} is a Nevada-licensed REALTOR® with 30+ years of experience specializing in assumable mortgages. Recognized expert on FHA, VA, and USDA loan assumptions in Las Vegas, Henderson, and throughout Nevada.`,
+    description: `${AGENT_INFO.name} is a Nevada REALTOR® licensed since 2008 · 35 years in Las Vegas, specializing in assumable mortgages. Recognized expert on FHA, VA, and USDA loan assumptions in Las Vegas, Henderson, and throughout Nevada.`,
     telephone: AGENT_INFO.phone,
     email: AGENT_INFO.email,
     url: SITE_CONFIG.baseUrl,
@@ -87,7 +87,7 @@ export function generateRealEstateAgentSchema() {
       'Las Vegas Real Estate Market',
     ],
     award: [
-      '30+ years of real estate experience',
+      'Licensed since 2008 · 35 years in Las Vegas',
       'Assumable Mortgage Specialist',
       'Las Vegas Market Expert',
     ],

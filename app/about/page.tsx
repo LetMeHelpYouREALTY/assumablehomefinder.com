@@ -11,7 +11,7 @@ import { generateAuthorPersonSchema } from '@/lib/author-info'
 export const metadata: Metadata = generatePageMetadata({
   title: 'About Dr. Jan Duffy - Assumable Mortgage Specialist',
   description:
-    'Dr. Jan Duffy is a Nevada-licensed REALTOR specializing in assumable mortgages, luxury homes, and Las Vegas real estate. 30+ years market expertise, Licensed Nevada REALTOR® S.0197614.',
+    'Dr. Jan Duffy is a Nevada-licensed REALTOR specializing in assumable mortgages, luxury homes, and Las Vegas real estate. Licensed since 2008 · 35 years in Las Vegas.',
   path: '/about',
   keywords: ['Dr. Jan Duffy', 'Las Vegas real estate agent', 'assumable mortgage specialist'],
 })
@@ -68,15 +68,12 @@ export default function AboutPage() {
                 {AGENT_INFO.name}
               </h2>
               <p className="mt-2 text-lg font-medium text-[var(--color-primary)]">
-                {AGENT_INFO.title} | License {AGENT_INFO.license}
-              </p>
-              <p className="mt-4 text-lg font-medium text-neutral-900">
-                {AGENT_INFO.brokerage}
+                {AGENT_INFO.title}®
               </p>
 
               <div className="mt-8 space-y-4 text-neutral-600">
                 <p>
-                  With over 30 years of real estate market expertise, Dr. Jan Duffy specializes in helping homebuyers find assumable mortgage opportunities in Las Vegas, Henderson, and throughout Nevada. Her extensive experience and specialized knowledge make her one of the region's leading experts on assumable mortgages.
+                  Licensed since 2008 · 35 years in Las Vegas, Dr. Jan Duffy specializes in helping homebuyers find assumable mortgage opportunities in Las Vegas, Henderson, and throughout Nevada. Her extensive experience and specialized knowledge make her one of the region's leading experts on assumable mortgages.
                 </p>
                 <p>
                   As an assumable mortgage specialist, Dr. Duffy understands the unique benefits and challenges of assuming existing FHA, VA, and USDA loans. She helps buyers navigate the assumption process, qualify with existing lenders, and save thousands of dollars per month compared to getting new loans at current market rates.
@@ -132,20 +129,12 @@ export default function AboutPage() {
               </p>
               <div className="mt-6">
                 <h3 className="text-xl font-semibold text-neutral-900 mb-4">
-                  Licensing & Brokerage Information
+                  Credentials
                 </h3>
                 <ul className="space-y-2 text-neutral-600">
                   <li className="flex items-start">
                     <span className="mr-2 text-neutral-500">•</span>
-                    <strong>Nevada Real Estate License:</strong> {AGENT_INFO.license} - Active and in good standing
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-neutral-500">•</span>
-                    <strong>Brokerage:</strong> {AGENT_INFO.brokerage} - One of Nevada's premier real estate firms
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-neutral-500">•</span>
-                    <strong>Experience:</strong> 30+ years of market expertise in Las Vegas and surrounding areas
+                    <strong>Experience:</strong> Licensed since 2008 · 35 years in Las Vegas
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-neutral-500">•</span>

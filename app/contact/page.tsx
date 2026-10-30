@@ -32,7 +32,7 @@ export default function ContactPage() {
             Get Expert Help with Assumable Mortgages in Las Vegas
           </h2>
           <p className="text-neutral-600 mb-4">
-            Whether you're searching for assumable homes, need guidance on the assumption process, or want to market your assumable mortgage as a seller, Dr. Jan Duffy is here to help. With over 30 years of real estate experience and specialized knowledge in assumable mortgages, we provide personalized service to help you navigate this unique homebuying opportunity.
+            Whether you're searching for assumable homes, need guidance on the assumption process, or want to market your assumable mortgage as a seller, Dr. Jan Duffy is here to help. Licensed since 2008 · 35 years in Las Vegas, with specialized knowledge in assumable mortgages, we provide personalized service to help you navigate this unique homebuying opportunity.
           </p>
           <p className="text-neutral-600 mb-4">
             Our team specializes in FHA, VA, and USDA assumable mortgages throughout Las Vegas, Henderson, North Las Vegas, and the greater Nevada area. We understand the nuances of the assumption process, from finding qualified assumable homes to navigating lender requirements and closing the deal.
@@ -85,15 +85,6 @@ export default function ContactPage() {
                     {AGENT_INFO.email}
                   </a>
                   <p className="text-sm mt-1">Email us for detailed inquiries</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-neutral-900 mb-1">License</p>
-                  <p className="text-lg">{AGENT_INFO.license}</p>
-                  <p className="text-sm mt-1">Nevada Licensed REALTOR®</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-neutral-900 mb-1">Brokerage</p>
-                  <p className="text-lg">{AGENT_INFO.brokerage}</p>
                 </div>
               </div>
             </div>
@@ -196,7 +187,7 @@ export default function ContactPage() {
             Deep Local Market Knowledge
           </h3>
           <p className="text-neutral-600 mb-4">
-            With 30+ years in the Las Vegas real estate market, we know the neighborhoods, market trends, and local nuances that matter when buying or selling. This includes understanding which areas have higher concentrations of assumable mortgages, current market conditions, and property values throughout Las Vegas, Henderson, and North Las Vegas.
+            Licensed since 2008 · 35 years in Las Vegas, we know the neighborhoods, market trends, and local nuances that matter when buying or selling. This includes understanding which areas have higher concentrations of assumable mortgages, current market conditions, and property values throughout Las Vegas, Henderson, and North Las Vegas.
           </p>
 
           <h3 className="text-xl font-semibold text-neutral-900 mt-6 mb-3">
