@@ -180,10 +180,10 @@ export default function FAQPage() {
         schema={generateWebPageSchema({
           name: 'FAQ - Assumable Mortgage Questions',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/faq',
+          url: 'https://www.assumablehomefinder.com/faq',
           breadcrumb: generateBreadcrumbSchema('/faq', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'FAQ', url: 'https://assumablehomefinder.com/faq' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'FAQ', url: 'https://www.assumablehomefinder.com/faq' },
           ]),
         })}
       />

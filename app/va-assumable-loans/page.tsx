@@ -244,10 +244,10 @@ export default function VALoansPage() {
         schema={generateWebPageSchema({
           name: 'VA Assumable Loans - Complete Buyer\'s Guide',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/va-assumable-loans',
+          url: 'https://www.assumablehomefinder.com/va-assumable-loans',
           breadcrumb: generateBreadcrumbSchema('/va-assumable-loans', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'VA Assumable Loans', url: 'https://assumablehomefinder.com/va-assumable-loans' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'VA Assumable Loans', url: 'https://www.assumablehomefinder.com/va-assumable-loans' },
           ]),
         })}
       />

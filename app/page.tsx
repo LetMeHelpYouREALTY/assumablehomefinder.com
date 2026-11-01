@@ -27,7 +27,7 @@ const homepageSchema = generateWebPageSchema({
   name: 'Find Homes with 2-4% Assumable Mortgages',
   description:
     'Save $500-$1,500/month by assuming existing FHA, VA, or USDA mortgages at 2-4% interest instead of getting new loans at 6-7%+.',
-  url: 'https://assumablehomefinder.com/',
+  url: 'https://www.assumablehomefinder.com/',
 })
 
 const exampleCalculatorInputs = {

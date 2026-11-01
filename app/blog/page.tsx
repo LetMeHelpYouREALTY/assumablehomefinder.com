@@ -67,10 +67,10 @@ export default function Page() {
         schema={generateWebPageSchema({
           name: 'Blog - Assumable Mortgage Resources',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/blog',
+          url: 'https://www.assumablehomefinder.com/blog',
           breadcrumb: generateBreadcrumbSchema('/blog', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'Blog', url: 'https://assumablehomefinder.com/blog' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'Blog', url: 'https://www.assumablehomefinder.com/blog' },
           ]),
         })}
       />

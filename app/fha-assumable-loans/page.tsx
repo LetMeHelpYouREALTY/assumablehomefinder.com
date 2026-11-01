@@ -272,10 +272,10 @@ export default function FHALoansPage() {
         schema={generateWebPageSchema({
           name: 'FHA Assumable Loans - Complete Buyer\'s Guide',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/fha-assumable-loans',
+          url: 'https://www.assumablehomefinder.com/fha-assumable-loans',
           breadcrumb: generateBreadcrumbSchema('/fha-assumable-loans', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'FHA Assumable Loans', url: 'https://assumablehomefinder.com/fha-assumable-loans' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'FHA Assumable Loans', url: 'https://www.assumablehomefinder.com/fha-assumable-loans' },
           ]),
         })}
       />

@@ -235,10 +235,10 @@ export default function AboutPage() {
         schema={generateWebPageSchema({
           name: 'About Dr. Jan Duffy - Assumable Mortgage Specialist',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/about',
+          url: 'https://www.assumablehomefinder.com/about',
           breadcrumb: generateBreadcrumbSchema('/about', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'About', url: 'https://assumablehomefinder.com/about' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'About', url: 'https://www.assumablehomefinder.com/about' },
           ]),
         })}
       />

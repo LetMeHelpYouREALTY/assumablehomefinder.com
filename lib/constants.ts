@@ -25,7 +25,7 @@ export const MARKET_STATS = {
 export const SITE_CONFIG = {
   name: 'Assumable Home Finder',
   domain: 'assumablehomefinder.com',
-  baseUrl: 'https://assumablehomefinder.com',
+  baseUrl: 'https://www.assumablehomefinder.com',
   description:
     'Find homes with assumable FHA, VA, and USDA mortgages. Save $500-$1,500/month by assuming existing low-rate mortgages (2-4%) instead of getting new loans at 6-7%+.',
   tagline: 'Find Homes with 2-4% Assumable Mortgages',

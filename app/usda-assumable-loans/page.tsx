@@ -282,10 +282,10 @@ export default function USDALoansPage() {
         schema={generateWebPageSchema({
           name: 'USDA Assumable Loans - Complete Buyer\'s Guide',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/usda-assumable-loans',
+          url: 'https://www.assumablehomefinder.com/usda-assumable-loans',
           breadcrumb: generateBreadcrumbSchema('/usda-assumable-loans', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'USDA Assumable Loans', url: 'https://assumablehomefinder.com/usda-assumable-loans' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'USDA Assumable Loans', url: 'https://www.assumablehomefinder.com/usda-assumable-loans' },
           ]),
         })}
       />

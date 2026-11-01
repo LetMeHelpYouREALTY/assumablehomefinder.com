@@ -271,10 +271,10 @@ export default function PrivacyPage() {
         schema={generateWebPageSchema({
           name: 'Privacy Policy',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/privacy',
+          url: 'https://www.assumablehomefinder.com/privacy',
           breadcrumb: generateBreadcrumbSchema('/privacy', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'Privacy Policy', url: 'https://assumablehomefinder.com/privacy' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'Privacy Policy', url: 'https://www.assumablehomefinder.com/privacy' },
           ]),
         })}
       />

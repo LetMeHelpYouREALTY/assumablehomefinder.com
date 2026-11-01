@@ -242,10 +242,10 @@ export default function ForSellersPage() {
         schema={generateWebPageSchema({
           name: 'For Sellers - Market Your Assumable Mortgage',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/for-sellers',
+          url: 'https://www.assumablehomefinder.com/for-sellers',
           breadcrumb: generateBreadcrumbSchema('/for-sellers', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'For Sellers', url: 'https://assumablehomefinder.com/for-sellers' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'For Sellers', url: 'https://www.assumablehomefinder.com/for-sellers' },
           ]),
         })}
       />

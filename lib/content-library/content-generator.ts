@@ -53,7 +53,7 @@ export function generateArticleContent(question: LongTailQuestion): GeneratedCon
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://assumablehomefinder.com/blog/${slug}`,
+      '@id': `https://www.assumablehomefinder.com/blog/${slug}`,
     },
     ...(question.searchIntent === 'comparison' && {
       '@type': 'FAQPage',

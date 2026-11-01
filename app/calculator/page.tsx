@@ -228,10 +228,10 @@ export default function CalculatorPage() {
         schema={generateWebPageSchema({
           name: 'Assumable Mortgage Savings Calculator',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/calculator',
+          url: 'https://www.assumablehomefinder.com/calculator',
           breadcrumb: generateBreadcrumbSchema('/calculator', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'Calculator', url: 'https://assumablehomefinder.com/calculator' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'Calculator', url: 'https://www.assumablehomefinder.com/calculator' },
           ]),
         })}
       />

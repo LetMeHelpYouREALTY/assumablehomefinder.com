@@ -388,10 +388,10 @@ export default function HowItWorksPage() {
         schema={generateWebPageSchema({
           name: 'How Assumable Mortgages Work',
           description: 'Learn the 6-step process of assuming an existing mortgage. Understand requirements, fees, timeline, and how to save thousands on your home purchase.',
-          url: 'https://assumablehomefinder.com/how-it-works',
+          url: 'https://www.assumablehomefinder.com/how-it-works',
           breadcrumb: generateBreadcrumbSchema('/how-it-works', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'How It Works', url: 'https://assumablehomefinder.com/how-it-works' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'How It Works', url: 'https://www.assumablehomefinder.com/how-it-works' },
           ]),
         })}
       />

@@ -220,10 +220,10 @@ export default function ContactPage() {
         schema={generateWebPageSchema({
           name: 'Contact Us - Assumable Mortgage Inquiry',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/contact',
+          url: 'https://www.assumablehomefinder.com/contact',
           breadcrumb: generateBreadcrumbSchema('/contact', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'Contact', url: 'https://assumablehomefinder.com/contact' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'Contact', url: 'https://www.assumablehomefinder.com/contact' },
           ]),
         })}
       />

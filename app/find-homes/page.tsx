@@ -220,10 +220,10 @@ export default function FindHomesPage() {
         schema={generateWebPageSchema({
           name: 'Find Assumable Homes - Search FHA, VA, USDA Loans',
           description: metadata.description || '',
-          url: 'https://assumablehomefinder.com/find-homes',
+          url: 'https://www.assumablehomefinder.com/find-homes',
           breadcrumb: generateBreadcrumbSchema('/find-homes', [
-            { name: 'Home', url: 'https://assumablehomefinder.com/' },
-            { name: 'Find Homes', url: 'https://assumablehomefinder.com/find-homes' },
+            { name: 'Home', url: 'https://www.assumablehomefinder.com/' },
+            { name: 'Find Homes', url: 'https://www.assumablehomefinder.com/find-homes' },
           ]),
         })}
       />
