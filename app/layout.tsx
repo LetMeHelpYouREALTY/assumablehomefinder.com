@@ -12,6 +12,7 @@ import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 
 import Script from "next/script";
+import RealtorAnalytics from "../components/analytics/RealtorAnalytics";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.baseUrl),
   title: {
@@ -158,6 +159,7 @@ e.parentNode.insertBefore(t,e);})
 window.widgetTracker("create", "WT-XQHVYQWW");
 window.widgetTracker("send", "pageview");
         `}</Script>
+  <RealtorAnalytics siteName="assumablehomefinder.com" />
 </body>
     </html>
   )
